@@ -10,13 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+    <header>
     <img class="header__logo" src='img/logo.svg'>
     <div class="header__controls">
         <a href="#contacts">Контакты</a>
         <button>Заказать</button>
   </header>
     <section class="about">
+      <canvas class="orb-canvas" id="orb-canvas"></canvas>
       <div class="about__info animate__animated animate__fadeInLeft animate__slow">
         <h1>Солнечные панели GreenRobotic</h1>
         <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
@@ -171,6 +172,7 @@
 
     <div class="footer__copyright">GreenCorp © 2021</div>
   </footer>
+  <script src="js/canvas.js"></script>
 </body>
 <script src="https://kit.fontawesome.com/fe6b31d915.js" crossorigin="anonymous"></script>
 </html> 
